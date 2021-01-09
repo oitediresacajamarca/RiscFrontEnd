@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "risc-frontend"
+    }
+  },
+  "defaultProject": "risc-frontend",
+  "cli": {
+    "analytics": "2df4df75-c0a2-43ca-9729-64b166cccc77"
+  }
 }
