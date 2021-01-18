@@ -28,12 +28,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+            
               "node_modules/primeng-lts/resources/themes/saga-blue/theme.css",
               "node_modules/primeng-lts/resources/primeng.min.css",
-              "node_modules/primeicons/primeicons.css"
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+ 
+              "src/styles.scss"
+            
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+             
+              "src/assets/js/app.js",
+              "src/assets/js/app.init.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -95,6 +108,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
